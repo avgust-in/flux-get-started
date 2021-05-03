@@ -19,7 +19,7 @@ spec:
       tag: 4.0.13
     usePassword: false
     persistence:
-      enabled: false
+      enabled: true
     securityContext:
       enabled: true
       fsGroup: 0
