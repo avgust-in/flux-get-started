@@ -6,7 +6,7 @@ metadata:
   namespace: demo
   annotations:
     fluxcd.io/automated: "false"
-    fluxcd.io/tag.chart-image: glob:3.1.1-debian-9-*
+    fluxcd.io/tag.chart-image: glob:3.1.0-debian-9-*
 spec:
   releaseName: ghost
   chart:
